@@ -17,4 +17,5 @@
     <string name="skills">SKILLS</string>
     <string name="java_nandroid_nkotlin_nc_c">JAVA \nANDROID \nKOTLIN \nC\\C++</string>
     <string name="bilkent_nmarmara">BILKENT \nMARMARA</string>
+    <string name="name">NAME :</string>
 </resources>
