@@ -29,6 +29,16 @@ class WelcomePageFragment : Fragment() {
             transaction.replace(R.id.mySecondFrameLayout, personalInfoFragment, tag)
             transaction.commit()
         }
+        val professionalInfoBtn = view.findViewById<Button>(R.id.professionalInfoBtn)
+        professionalInfoBtn.setOnClickListener {
+            val manager = requireActivity().supportFragmentManager
+            val professionalInfoFragment = ProfessionalInfoFragment()
+            val tag = "professionalInfoFragment"
+            val transaction = manager.beginTransaction()
+            transaction.addToBackStack(tag)
+            transaction.replace(R.id.mySecondFrameLayout, professionalInfoFragment, tag)
+            transaction.commit()
+        }
         return view
     }
 }
