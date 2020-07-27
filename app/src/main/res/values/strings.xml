@@ -6,4 +6,15 @@
     <string name="personal_information">PERSONAL INFORMATION</string>
     <string name="professional_information">PROFESSIONAL INFORMATION</string>
     <string name="welcome">WELCOME</string>
+    <string name="name_etka">NAME : ETKA</string>
+    <string name="surname_uzun">SURNAME : UZUN</string>
+    <string name="birth_day_12_02_1998">BIRTH DAY : 12.02.1998</string>
+    <string name="age_22">AGE : 22</string>
+    <string name="update">UPDATE</string>
+    <string name="experience">EXPERIENCE</string>
+    <string name="dogus">DOGUS</string>
+    <string name="university">UNIVERSITY</string>
+    <string name="skills">SKILLS</string>
+    <string name="java_nandroid_nkotlin_nc_c">JAVA \nANDROID \nKOTLIN \nC\\C++</string>
+    <string name="bilkent_nmarmara">BILKENT \nMARMARA</string>
 </resources>
