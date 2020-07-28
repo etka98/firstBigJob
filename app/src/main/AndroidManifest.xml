@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".PersonalInfoUpdate"></activity>
+        <activity android:name=".ProfessionalInfoUpdate"></activity>
+        <activity android:name=".PersonalInfoUpdate" />
         <activity android:name=".AuthenticationActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
