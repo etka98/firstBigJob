@@ -1,5 +1,6 @@
 package com.example.firstproject
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -26,6 +27,14 @@ class ProfessionalInfoUpdate : AppCompatActivity() {
 
     fun giveAction(){
         updateBtn.setOnClickListener {
+            val intent = Intent()
+            val experience = experienceText.text.toString()
+            val uni = uniText.text.toString()
+            val skills = skillsText.text.toString()
+            intent.putExtra("updateExpValue", experience)
+            intent.putExtra("updateUniValue", uni)
+            intent.putExtra("updateSkillsValue", skills)
+            this.setResult(23,intent)
             this.finish()
         }
     }

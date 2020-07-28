@@ -1,5 +1,6 @@
 package com.example.firstproject
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -28,6 +29,16 @@ class PersonalInfoUpdate : AppCompatActivity() {
 
     fun giveAction(){
         updateBtn.setOnClickListener {
+            var intent = Intent()
+            val name = nameText.text.toString()
+            val surname = surnameText.text.toString()
+            val birthDay = birthDayText.text.toString()
+            val age = ageText.text.toString()
+            intent.putExtra("nameUpdate", name)
+            intent.putExtra("surnameUpdate", surname)
+            intent.putExtra("birthDayUpdate", birthDay)
+            intent.putExtra("ageUpdate", age)
+            this.setResult(24, intent)
             this.finish()
         }
     }
